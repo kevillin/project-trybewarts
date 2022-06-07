@@ -53,3 +53,7 @@ main {
 #rate {
   display: flex;
 }
+
+textarea {
+  border: solid 2px black;
+}
