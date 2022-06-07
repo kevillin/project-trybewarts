@@ -40,3 +40,12 @@ main {
 #fullname {
   display: flex;
 }
+
+#email-house {
+  display: flex;
+}
+
+#radio-buttons {
+  display: flex;
+  flex-direction: column;
+}
