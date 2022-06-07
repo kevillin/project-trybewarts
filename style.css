@@ -18,3 +18,12 @@
 .trybewarts-header-logo {
   height: 70px;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
