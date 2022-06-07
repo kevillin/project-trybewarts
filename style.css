@@ -23,6 +23,7 @@
 
 main {
   display: flex;
+  align-items: center;
 }
 
 #evaluation-form {
@@ -56,4 +57,19 @@ main {
 
 textarea {
   border: solid 2px black;
+}
+
+#comment-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-form {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
