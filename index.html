@@ -10,9 +10,7 @@
   <body>
     <header class="header">
       <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="header-logo">
-
       <h1 id="trybewarts-header-title">Trybewarts</h1>
-
       <form class="trybewarts-login" action="">
         <input type="email" name="email" id="email" placeholder="Email">
         <input type="password" name="password" id="password" placeholder="Senha">
@@ -21,20 +19,34 @@
     </header>
     <main>
       <form id="evaluation-form" action="">
-        <input type="text" id="input-name" name="input-name" placeholder="Nome">
-        <input type="text" id="input-lastname" name="input-lastname" placeholder="Sobrenome">
-        <input type="email" id="input-email" name="input-email" placeholder="Email">
-        <select name="select-house" id="house">
-          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-          <option id="corvinode-house" value="Corvinode">Corvinode</option>
-          <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
+       <section id="fullname">
+         <div>
+           <label for="input-name">Nome:</label>
+           <input type="text" id="input-name" name="input-name" placeholder="Nome">
+         </div>
+         <div>
+           <label for="input-lastname">Sobrenome:</label>
+           <input type="text" id="input-lastname" name="input-lastname" placeholder="Sobrenome">
+         </div>
+       </section>
+        <div>
+          <label for="input-email">Email:</label>
+          <input type="email" id="input-email" name="input-email" placeholder="Email">
+        </div>
+        <div>
+          <label for="house">Selecione sua casa:</label>
+          <select name="select-house" id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
       </form>
-      <img src="images/trybewarts-colored.svg" alt="logo-form" id="trybewarts-forms-logo">
+      <section>
+        <img src="images/trybewarts-colored.svg" alt="logo-form" id="trybewarts-forms-logo">
+      </section>
     </main>
-    
-
     <script src="script.js"></script>
   </body>
 </html>

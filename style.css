@@ -1,6 +1,8 @@
 * {
+  padding: 0;
   border: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -25,13 +27,16 @@ main {
 
 #evaluation-form {
   display: flex;
-  width: 675px;
   flex-direction: column;
+  width: 675px;
+  height: 500px;
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
   display: flex;
-  align-items: flex-end;
+  height: 500px;
 }
 
+#fullname {
+  display: flex;
+}
