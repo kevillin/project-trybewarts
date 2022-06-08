@@ -42,7 +42,7 @@ main {
   height: 500px;
 }
 
-#fullname, #email-house, #radio-family, #comment-textarea, #radio-family, #check-content, #radio-rate, #check-agree  {
+.section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
@@ -50,15 +50,15 @@ main {
   border-bottom: thin solid black;
 }
 
-#fullname div, #email-house div {
-  display: flex;
-}
-
-#radio-family, #comment-textarea, #radio-family, #check-content, #radio-rate {
+.column {
   flex-direction: column;
 }
 
-#check-content div, #radio-rate div {
+#fullname div , #email-house div {
+  display: flex;
+}
+
+#check-content div , #radio-rate div {
   display: flex;
   justify-content: space-between;
 }

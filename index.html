@@ -19,7 +19,7 @@
     </header>
     <main>
       <form id="evaluation-form" action="">
-       <section id="fullname">
+       <section id="fullname" class="section">
          <div>
            <label for="input-name"><strong>Nome:</strong></label>
            <input type="text" id="input-name" name="input-name" placeholder="Nome">
@@ -29,7 +29,7 @@
            <input type="text" id="input-lastname" name="input-lastname" placeholder="Sobrenome">
          </div>
        </section>
-       <section id="email-house">
+       <section id="email-house" class="section">
           <div>
             <label for="input-email"><strong>Email:</strong></label>
             <input type="email" id="input-email" name="input-email" placeholder="Email">
@@ -44,7 +44,7 @@
             </select>
           </div>
        </section>
-       <section id="radio-family">
+       <section id="radio-family" class="section column">
          <label id="label-family" for="frontend"><strong>Qual sua família?</strong></label>
          <label for="frontend">
            <input type="radio" name="family" id="frontend" value="Frontend">Frontend
@@ -56,7 +56,7 @@
            <input type="radio" name="family" id="fullstack" value="FullStack">FullStack
          </label>
        </section>
-       <section id="check-content">
+       <section id="check-content" class="section column">
           <label id="label-content"><strong>Qual conteúdo você está com mais vontade de aprender?</strong></label>
           <div>
             <label for="hofs">
@@ -85,7 +85,7 @@
             </label>
           </div>
         </section>
-        <section id="radio-rate">
+        <section id="radio-rate" class="section column">
           <label id="label-rate"><strong>Como você avalia a Trybewarts?</strong></label>
           <div>
             <label for="one">
@@ -130,11 +130,11 @@
             </label>
           </div>
         </section>
-        <section id="comment-textarea">
+        <section id="comment-textarea" class="section column">
             <label class="textarea" for="comments"><strong>Deixe seu comentário:</strong></label>
             <textarea name="textarea" id="comments" class="textarea" cols="30" rows="10" maxlength="500"></textarea>
         </section>
-        <section id="check-agree">
+        <section id="check-agree" class="section">
           <input type="checkbox" name="agreement" id="agreement">
           <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
         </section>
