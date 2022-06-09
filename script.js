@@ -20,9 +20,6 @@ agreement.addEventListener('click', () => {
   }
 });
 
-const contador = () => {
-  comments.addEventListener('input', () => {
-    counter.innerText = 500 - comments.value.length;
-  });
-};
-contador();
+comments.addEventListener('input', () => {
+  counter.innerText = 500 - comments.value.length;
+});
